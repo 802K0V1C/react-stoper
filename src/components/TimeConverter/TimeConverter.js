@@ -1,5 +1,3 @@
-import styles from './TimeConverter.module.scss';
-
 const formatTime = (time) => {
     const date = new Date(time) 
     const hours = date.getUTCHours().toString().padStart(2, '0');
