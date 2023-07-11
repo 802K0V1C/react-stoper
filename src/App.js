@@ -1,9 +1,10 @@
 import Container from "./components/Container/Container.js";
+import Timer from "./components/Stopwatch/Stopwatch.js";
 
 function App() {
   return (
   <Container>
-  <h1>Hello world!</h1>
+  <Timer/>
   </Container>
   );
 }
